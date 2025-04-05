@@ -16,3 +16,8 @@ class Solution {
 
         }
     };
+
+    /* 2 lines solution
+    string cleaned = accumulate(s.begin(), s.end(), string(), [](string res, char c){if(isalnum(c)) res.push_back(c); return res;});
+    return equal(cleaned.begin(), cleaned.begin() + cleaned.size()/2, cleaned.rbegin());
+    */

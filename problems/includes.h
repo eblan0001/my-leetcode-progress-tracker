@@ -6,3 +6,4 @@
 #include <algorithm>
 #include <map>
 #include <cctype>
+#include <numeric>
